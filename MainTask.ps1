@@ -9,7 +9,7 @@ function manufacturer () {
     if($manufacturer -eq "LENOVO") {
         lenovo
     }
-    else if($manufacturer -eq "HP") {
+    elseif($manufacturer -eq "HP") {
 
     }
 }
@@ -29,7 +29,7 @@ $Installer = New-Object -ComObject Microsoft.Update.Installer
 $Installer.Updates = $Result.Updates
 $InstallationResult = $Installer.Install()
 
-# manufacturer
+manufacturer
 
 # Check installation result
 if ($InstallationResult.ResultCode -eq 2) {
