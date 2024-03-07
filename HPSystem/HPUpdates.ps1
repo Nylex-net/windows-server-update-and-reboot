@@ -1,0 +1,2 @@
+# Make sure to HP Image Assistant is installed.
+& "C:\Program Files (x86)\HP\HP Image Assistant\HPImageAssistant.exe" /Operation:Analyze /Action:Install /Selection:All /Silent /ReportFolder:C:\Users\Administrator\HPIA\Logs /SoftpaqDownloadFolder:C:\Users\Administrator\HPIA\Drivers
