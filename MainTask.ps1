@@ -29,7 +29,7 @@ $Installer = New-Object -ComObject Microsoft.Update.Installer
 $Installer.Updates = $Result.Updates
 $InstallationResult = $Installer.Install()
 
-manufacturer
+# manufacturer
 
 # Check installation result
 if ($InstallationResult.ResultCode -eq 2) {
